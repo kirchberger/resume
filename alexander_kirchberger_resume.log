@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.1)  27 SEP 2025 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.9.1)  27 SEP 2025 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,7 +282,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 16--16
  []
 
 
-Overfull \hbox (0.55103pt too wide) in paragraph at lines 80--85
+Overfull \hbox (0.55103pt too wide) in paragraph at lines 82--87
 [][] 
  []
 
@@ -313,10 +313,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti10.pfb>
-Output written on alexander_kirchberger_resume.pdf (1 page, 82787 bytes).
+Output written on alexander_kirchberger_resume.pdf (1 page, 82987 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
