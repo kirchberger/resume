@@ -1,0 +1,102 @@
+
+% LaTeX Template
+% Version 2.0 (8/5/13)
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+
+% Packages
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=1cm,top=0.7cm,right=1cm,bottom=1cm]{geometry} % Document margins
+
+% Name and Information
+\name{Alexander Kirchberger} % Your name
+\address{(519) 938-1101 \\ \href{mailto:akirchbe@uwo.ca}{akirchbe@uwo.ca} \\ \href{https://www.linkedin.com/in/alexanderkirchberger}{Linkedin} \\ \href{https://ieeexplore.ieee.org/author/667748992574775}{IEEE Xplore} \\  \href{https://github.com/kirchberger}{GitHub}}% Your phone number and email
+\begin{document}
+\title{Resume}
+
+% Education
+\begin{rSection}{Education}
+\begin{rSubsection}{Western University}{May 2023 - August 2025}{M.E.Sc in Electrical and Computer Engineering}{London, ON}
+\item Developed a novel multiport formulation and regularization technique for the Delayed Vector Fitting technique, to find efficient macromodels of electrically long multiport systems and improve convergance.
+\item \href{https://ieeexplore.ieee.org/document/11112764}{Developed and published a novel multiport formaulation and method to create instruments for the Vector Fitting-Instrumental Varible technique, to find efficient macromodels of systems characterized by noisy frequency responses.}
+\item Instructed and marked course assessments, such as laboratories project reports and exams as a graduate teaching assistant for ECE 2277 Digital Logic Systems and ECE 3375 Microcontrollers.
+\end{rSubsection}
+
+\begin{rSubsection}{Western University}{September 2018 - April 2023}{B.E.Sc in Electrical Engineering - With Co-op and Distinction}{London, ON}
+\vspace{-.65cm}
+\item[]
+\end{rSubsection}
+\end{rSection}
+
+% Work Experience
+\begin{rSection}{Work Experience}
+\begin{rSubsection}{General Dynamics Land Systems - Canada}{May 2021 - August 2022}{Electrical Design Specialist (Internship)}{London, ON}
+\item Design lead of 3 subsystems of a prototype light armored vehicle.
+\item Designed 138 wiring harnesses and cables, circuit protection, grounding schemes, and component selection.
+\item Reviewed networking architectures for issues related to hardware compatibility.
+\item Performed testing for MIL-STD-461 testing with at the device and vehicle level.
+\end{rSubsection}
+\begin{rSubsection}{Western University}{May 2020 - August 2020}{Undergraduate Summer Research Internship}{London,ON}
+\item Developed a high impedance fault detection scheme using Mathematical Morphology.
+\end{rSubsection}
+\end{rSection}
+
+% Club Experience
+\begin{rSection}{Engineering Experience}
+\begin{rSubsection}{Western University - Western Formula Racing}{May 2023 - April 2025}{Grounded Low Voltage Lead}{London, ON}
+\item Led the design assembly and validation of grounded low voltage system, and supported design and assembly of the high voltage system of an Formula SAE car.
+\item Designed and validated system arcitectures, PCBs, wiring harnesses, and high voltage components
+\item Work was performed under intense time and resource constraints.
+\end{rSubsection}
+
+\begin{rSubsection}{Western University - Western Engineering Build Team}{September 2022 - April 2025}{Electrical Team}{London, ON}
+\item Designed and assembled professional light shows for prop structures under intense time and resource constraints.
+\item Designed, troubleshot, and repaired legacy systems for orientation week.
+\end{rSubsection}
+% Is this removeable or shortened
+\begin{rSubsection}{Western University - Sunstang Solar Car Team}{May 2022 - September 2023}{Low Voltage Lead}{London, ON}
+\item Design of solar car low voltage system.
+%\item Designed wiring harnesses, PCB, and HV electronics for vehicle control.
+%\item Supported selection of motors, motor controllers, electric vehicle battery chargers, and BMS.
+\end{rSubsection}
+\end{rSection}
+
+% Projects
+\begin{rSection}{Projects}
+\begin{rSubsection}{\href{https://github.com/kirchberger/WFR-24E_ECU}{WFR-24E ECU}}{}{}{}
+\item Main controller for the Western Formula Racing Formula SAE car, based on a Teensy 4.1 development board.
+\item The controller interfaces with all the components within the car, such as the motor inverter over CAN.
+\end{rSubsection}
+\begin{rSubsection}{\href{https://github.com/kirchberger/Light_Shows/tree/main/WLED-v1}{WLED Light Controller}}{}{}{}
+\item ESP32 based light controller, utilizing open source WLED software used for light shows.
+\item The controller contains 4 powered pixel outputs capable of controlling up to 4048 pixels.
+\end{rSubsection}
+\end{rSection}
+
+% Skills
+\begin{rSection}{Technical Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Circuit Design & HSPICE, LTSPICE, Altium, KiCAD, PCB Design, RF Design, Signal Integrity Design \\
+Model Generation & Vector Fitting, Transient Simulation, Electromagnetic Simulation \\
+Software & C, Python, MATLAB, RTOS, Linux, Vim, Git, Docker
+\end{tabular}
+\end{rSection}
+
+\iffalse
+\begin{rSection}{Research Papers}
+\begin{rSubsection}
+ A. Kirchberger and A. Dounavis, "Delay Rational Macromodelling of Noisy Tabulated Frequency Responses," 2024 IEEE 33rd Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS), Toronto, ON, Canada, 2024, pp. 1-3, doi: 10.1109/EPEPS61853.2024.10754128.
+\end{rSubsection}
+
+\end{rSection}
+\fi
+\iffalse
+
+\begin{rSection}{Interests}
+Cycling\hspace{1cm}Basketball\hspace{1cm}Soccer\hspace{1cm}Automation\hspace{1cm}Electronics Hobbyist
+\end{rSection}
+\fi
+
+\end{document}
